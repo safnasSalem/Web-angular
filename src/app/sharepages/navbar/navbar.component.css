@@ -3,10 +3,25 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  .navbar-brand{
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: green;
+   
  }
+ .nav-link {
+  margin-right: 50px; /* Adjust the margin-right to create space between the nav links */
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:400;
+  color: rgb(10, 10, 10);
+}
 
-
+ .navbar-logo {
+   width: 90px; /* Adjust the width as needed */
+   height: auto; /* Maintains aspect ratio */
+ }
+ 
+ .navbar-text {
+   margin-left: 10px; /* Adjust the spacing between the image and text */
+   font-size: large;
+   color: black;
+ }
+ 

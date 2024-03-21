@@ -10,6 +10,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NextDirective } from './next.directive';
 import { PrevDirective } from './prev.directive';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SplashComponent } from './splash/splash.component';
+import { FormsModule } from '@angular/forms'; // Import FormsModule
 
 @NgModule({
   declarations: [
@@ -22,10 +25,13 @@ import { PrevDirective } from './prev.directive';
     ContactComponent,
     NextDirective,
     PrevDirective,
+    SplashComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    FormsModule
     
   ],
   providers: [],

@@ -1,0 +1,69 @@
+.app-splash-screen{
+  background-color: rgb(18, 18, 18);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.app-label{
+  color: #fff;
+  font-size: 2.5em;
+  background-position: center;
+  background-size: contain;
+
+
+
+}
+.app-loader{
+  background: url('https://samherbert.net/svg-loaders/svg-loaders/three-dots.svg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+
+}
+.app-splash-screen-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-link{
+  text-decoration: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand{
+ 
+}
+.nav-link {
+margin-right: 50px; /* Adjust the margin-right to create space between the nav links */
+padding-right: 20px;
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight:400;
+color: rgb(10, 10, 10);
+}
+
+.navbar-logo {
+ width: 90px; /* Adjust the width as needed */
+ height: auto; /* Maintains aspect ratio */
+}
+
+.navbar-text {
+ margin-left: 10px; /* Adjust the spacing between the image and text */
+ font-size: large;
+ color: black;
+}
+

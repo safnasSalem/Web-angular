@@ -1,0 +1,40 @@
+<!-- Conditionally display the navigation bar based on the flag isNavbarVisible -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" *ngIf="isNavbarVisible">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand"  routerLink=""><img class="navbar-logo" src="../../../assets/Shell pack logo color_page-0001.jpg">SHELL PACKING</a> -->
+      <a class="navbar-brand" routerLink="">
+        <img src="../../../assets/Shell pack logo color_page-0001.jpg" class="navbar-logo">
+        <span class="navbar-text">SHELL PACK</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  ms-auto">
+          <li class="nav-item" >
+            <a class="nav-link " routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="menu" routerLinkActive="active-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="about" routerLinkActive="active-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="contact" routerLinkActive="active-link" >Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <!-- Your navbar content here -->
+</nav>
+
+<!-- Your splash screen content -->
+<div class="app-splash-screen" [ngStyle]="{left: WindowWidth}">
+<div class="app-splash-inner">
+  <!-- Your splash screen content here -->
+  <div class="app-logo"></div>
+  <!-- <div class="app-label"><img src="../../assets/Shell pack logo color_page-0001.jpg"></div> -->
+  <div class="app-loader"></div>
+</div>
+</div>
